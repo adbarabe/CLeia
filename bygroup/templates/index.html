@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <ul class="list-group">
+         {% for list in lists %}
+              <li class="list-group-item">
+                  {{ list.name }}
+                  <a href="lists?id={{ list.name }}&tf=All" >ALL</a>|
+                  <a href="lists?id={{ list.name }}&tf=00" >00</a>|
+                  <a href="lists?id={{ list.name }}&tf=01" >01</a>|
+                  <a href="lists?id={{ list.name }}&tf=02" >02</a>|
+                  <a href="lists?id={{ list.name }}&tf=03" >03</a>|
+                  <a href="lists?id={{ list.name }}&tf=04" >04</a>
+              </li>
+         {% endfor %}
+    </ul>
+{% endblock %}

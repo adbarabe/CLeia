@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h4>{{message}}</h4>
+
+<ul class="list-group">
+    {% for s, p in sclist %}
+    <li class="list-group-item">
+        {{ s }} | {{ p }}
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
