@@ -1,2 +1,2 @@
-# CLeia-v2.0
+# CLeia
 Initial checking
