@@ -1,0 +1,16 @@
+
+{# bygroup and timeframe #}
+
+{% block content %}
+<head></head>
+<body>
+
+    {% for s, p in sclist %}
+        {{ s }}
+        <a href="http://stockcharts.com/h-sc/ui?{{ p }}&listNum={{ ln }}" target='_blank'>
+        <img border='0' src='http://stockcharts.com/c-sc/sc?{{ p }}' height=780 width=700/></a>
+    {% endfor %}
+
+{% endblock %}
+
+</body>

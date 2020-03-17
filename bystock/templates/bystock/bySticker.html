@@ -9,8 +9,8 @@
     <img border='0' src='https://c.stockcharts.com/pnf/chart?c={{ sticker }},PWPDWAYRBO[PA!B5][D][F1!3!1.0!!2!20]&r=3216&pnf=y' height=745 width=788/></a>
 
     {% for s, p in sclist %}
-        <a href='http://stockcharts.com/h-sc/ui?s={{ p }}' target='_blank'>
-        <img border='0' src='http://stockcharts.com/c-sc/sc?s={{ p }}&listNum={{ ln }}' height=700 width=600/></a>
+        <a href='http://stockcharts.com/h-sc/ui?{{ p }}&listNum={{ ln }}' target='_blank'>
+        <img border='0' src='http://stockcharts.com/c-sc/sc?{{ p }}&listNum={{ ln }}' height=700 width=600/></a>
     {% endfor %}
 </body></html>
 

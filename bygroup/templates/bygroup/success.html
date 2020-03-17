@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h4>{{message}}</h4>
+Location: <h6>{{path}}</h6>
+<h6>{{message}}</h6>
+<br>
 
 <ul class="list-group">
     {% for s, p in sclist %}

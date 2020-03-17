@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bygroup.apps.BygroupConfig',
-    'bystock.apps.BystockConfig'
+    'bysorting.apps.BysortingConfig',
+    'bystock.apps.BystockConfig',
+    'byPnF.apps.BypnfConfig'
 ]
 
 MIDDLEWARE = [

@@ -3,7 +3,7 @@ from .models import SClist, Metadata
 
 
 class SClistAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'number', 'info')
+    list_display = ('id', 'name', 'number')
 
 
 class MetadataAdmin(admin.ModelAdmin):
